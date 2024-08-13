@@ -131,5 +131,15 @@ if __name__ == '__main__':
         
         if docx_file and pdf_file and screenshot_path:
             logging.info('All files created on desktop')
+
+    while True:
+        close_screen = input('Do you want to close the screen? (Y/N): ').strip().upper()
+        if close_screen == 'Y':
+            break
+        elif close_screen == 'N':
+            continue
+        else:
+            print('Please enter "Y" for yes or "N" for no.')
+
             
     logging.info('Automation complete!')
