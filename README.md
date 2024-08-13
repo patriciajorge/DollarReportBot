@@ -1,4 +1,3 @@
-```markdown
 ## DollarReportBot
 
 Este projeto automatiza a captura do valor do dólar e cria um relatório em formato DOCX, que também é convertido para PDF. Utiliza o Selenium para acessar o site de conversão de moeda, PyAutoGUI para capturar uma captura de tela e `python-docx` para criar e formatar o documento.
@@ -35,7 +34,7 @@ ex:
 
 ## Instalação
 
-O instalador para este projeto está disponível na seção de [releases](https://github.com/usuario/projeto/releases). Baixe o instalador adequado para o seu sistema e siga as instruções para instalar e configurar o projeto.
+O instalador para este projeto está disponível na seção de [releases](https://github.com/patriciajorge/DollarReportBot/tags). Baixe o instalador adequado para o seu sistema e siga as instruções para instalar e configurar o projeto.
 
 ## Como Usar
 
